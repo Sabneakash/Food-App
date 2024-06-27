@@ -1,0 +1,188 @@
+.nav{
+    text-align: center;
+    padding: 30px;
+    /* margin: 20px; */
+    color: rgb(221, 234, 235);
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkcyan;
+    border-radius: 10px;
+}
+ body{
+    background-color: rgb(180, 180, 188);
+ }
+
+ .search{
+    margin: 20px auto;
+    
+    width: 300px;
+    position: relative;
+ }
+
+ .data{
+    border: none;
+    border-bottom: 2px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 100%;
+ }
+
+ .item{
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 8px;
+    margin: 20px;
+    overflow: hidden;
+    background-color:rgb(206, 227, 227);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 150px;
+   
+ }
+
+ .item2{
+    max-width: 100%;
+    height: auto;
+ }
+
+ .contain{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+ }
+
+ .contain2{
+    font-size: 1rem;
+    font-weight: 600;
+
+ }
+
+ .btn{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+ }
+
+ .btn1{
+    border: none;
+    background-color: rgb(60, 229, 65);
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 8px;
+ }
+
+ .container{
+   display: flex;
+
+ }
+
+ .innerContainer{
+   background-color: rgb(85, 87, 121);
+   flex: 1;
+   padding: 10px;
+   margin: 10px;
+   border-radius: 10px;
+ }
+
+ /* Food details */
+
+ .recipe-head{
+  color: rgb(17, 15, 15);
+ }
+
+ .recipe-serve{
+  color: white;
+ }
+
+ 
+
+ .recipe-card{
+   max-width: 600px;
+   margin: 20px auto;
+   padding: 20px;
+   box-shadow: 0 4px 8px;
+   border-radius: 10px;
+   font-family: 'Times New Roman', Times, serif;
+   
+ }
+
+ .recipe-name{
+   font-size: 24px;
+   margin-bottom: 10px;
+   color: white;
+ }
+
+ .recipe-img{
+   max-width: 200px;
+   height: auto;
+   border-radius: 5px;
+   margin-bottom: 10px;
+ }
+
+ .recipe-details{
+   margin-bottom: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-between;
+   color: white;
+   
+ }
+
+ .recipe-ins{
+   padding: 0px;
+   border-radius: 5px;
+   color: white;
+
+ }
+
+ .recipe-ins ol{
+   margin-left: 0px;
+ }
+
+ .recipe-ins li{
+   margin-left: 10px 0px;
+   font-size: larger;
+ }
+
+ /* item container */
+
+ .item-container{
+   display: flex;
+   padding: 10px;
+   margin: 50px;
+   box-shadow: 0 4px 6px;
+   border-radius: 10px;
+ }
+
+ .item-img{
+   width: 100px;
+   height: 100px;
+   border-radius: 10px;
+ }
+
+ .item-img2{
+   max-width: 100%;
+   height: auto;
+   border-radius: 20px;
+ }
+
+ .about-item{
+   margin-left: 50px;
+   color: white;
+ }
+
+ .item-name{
+   font-size: larger;
+   font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
+   color: white;
+ }
+
+ .item-amount{
+   font-weight: bold;
+   margin-top: 10px;
+   color: white;
+ }
